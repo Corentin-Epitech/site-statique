@@ -1,4 +1,5 @@
 
+/* Code Header */
 
 header {
     display: flex;
@@ -7,7 +8,38 @@ header {
     background-color: #152237;
 }
 
+.h_img {
+    width: 5.25rem;
+    height: 1.938rem;
+    margin-top: 1.563rem;
+    margin-left: 6.125rem;
+}
 
+.h_p {
+    width: 6.875rem;
+    height: 1.125rem;
+    margin-top: 1.938rem;
+    margin-left: 21.875rem;
+    font-size: 0.938rem;
+    font-weight: 500;
+    letter-spacing: -1.5%;
+    
+}
+
+.h_search {
+    width: 29.813rem;
+    height: 2.5rem;
+    margin-top: 1.25rem;
+    margin-left: 37.688rem;
+    border-style: mixed;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+
+}
+
+.h_button {
+    margin: auto;
+}
 
 .r-box, .p-box {
     display: flex;
