@@ -258,12 +258,24 @@ header {
     }
 }
 
-/*Code Popular et Recent*/
+/*Code Popular */
 
 @media screen and (max-width: 425px) {
-  .popular h2 {
+  .recent {
+    background-color: #152237;
+  }
+  
+  .title {
     display: flex;
     justify-content: center;
+  }
+  .recent h2 {
+    color: #FFFFFF;
+  }
+
+  h2 {
+    width: 335px;
+    
     font-family: MontSerrat;
     font-weight: 800;
     font-style: ExtraBold;
@@ -277,6 +289,7 @@ header {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    
   }
 
   .holder {
@@ -291,6 +304,21 @@ header {
     right: 10px;
     
   }
+  .recent .p-text {
+    color: #FFFFFF;
+  }
+  .p-text {
+    margin: auto;
+    margin-left: 14%;
+    margin-right: 11%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .recent .box .p-button {
+    background-color: #FFFFFF;
+  }
+
 
   .box .p-button {
     width: 120px;
@@ -299,6 +327,10 @@ header {
     border-style: hidden;
     background-color: rgba(21, 34, 55, 1);
     display: flex;
+  }
+
+  .recent .box h2 {
+    color: rgba(21, 34, 55, 1);
   }
 
   .box h2 {
@@ -311,6 +343,10 @@ header {
     color: rgba(255, 255, 255, 1);
   }
 
+  .recent .box h3 {
+    color: rgba(21, 34, 55, 1);
+    text-decoration: inline-through #152237;
+  }
   .box h3 {
     font-family: MontSerrat;
     font-weight: 400;
@@ -330,8 +366,7 @@ header {
     line-height: 36px;
     letter-spacing: -1.5%;
     margin: auto;
-    margin-top: 15px;
-    margin-left: 9px;
+    margin-top: 5px;
   }
 
   .box h5 {
@@ -341,8 +376,16 @@ header {
     line-height: 25px;
     letter-spacing: 0%;
     margin: auto;
-    
-    margin-left: 9px;
+    align-self: center;
+    margin-top: 5px;
+  }
+
+  .box .rating {
+    margin-top: 5px;
+  }
+
+  .box .fa {
+    color: rgba(255, 199, 0, 0.3);
   }
 
   .box .checked {
@@ -350,10 +393,7 @@ header {
     margin: auto;
   }
   
-  .box .rating {
-    margin-left: 9px;
-    margin-top: 3px;
-  }
+  
 
   .box p {
     font-family: MontSerrat;
@@ -362,18 +402,40 @@ header {
     line-height: 18px;
     letter-spacing: 0%;
     margin: auto;
-    margin-top: 3px;
-    margin-left: 9px;
-    margin-bottom: 45px;
+    margin-top: 5px;
   }
-
-  .p-bottom-button {
+  
+  .bottom-button {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-bottom: 45px;
+    padding-top: 15px;
+  }
+
+  .recent .p-box .p-bottom-button {
+    background-color: #FFFFFF;
+    color: #152237;
+    
+  }
+
+  .p-box .p-bottom-button {
+    width: 225px;
+    height: 40px;
+    border-radius: 6px;
+    border-style: hidden;
+    background-color: rgba(21, 34, 55, 1);
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    
   }
 
   
+
 }
 
 @media screen and (min-width: 426px) {
@@ -381,15 +443,28 @@ header {
 }
 
 
+/*Code recent*/
 
 
+/* Code Avis */
+
+@media screen and (max-width: 425px) {
+  .avis {
+      display: flex;
+  }
 
 
-
-
-.avis {
-    display: flex;
 }
+
+@media screen and (min-width: 426px) {
+
+  .avis {
+      display: flex;
+  }
+  
+}
+
+
 
 .avantage {
     display: flex;
