@@ -452,7 +452,9 @@ header {
     flex-direction: column;
   }
 
-  
+  .avis-container .title {
+    text-transform: uppercase;
+  }
 
   .a-box .rating .checked {
     color: rgba(255, 199, 0, 1);
@@ -496,9 +498,47 @@ header {
   
 }
 
+/*Code avantage */
 
+@media screen and (max-width: 425px) {
+  .avantage {
+    background-color: rgba(245, 245, 245, 1);
+  }
 
-.avantage {
+  .avantage .title {
+    text-transform: uppercase;
+  }
+  .text-avantage {
     display: flex;
+  }
+
+  li {
+    list-style: none;
+  }
+  .text-avantage .list {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.031rem;
+    width: 326px;
+
+  }
+
+
+  .img-avantage {
+    width: 327px;
+    height: 244px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
 }
+
+@media screen and (min-width: 426px) {
+
+}
+
 
