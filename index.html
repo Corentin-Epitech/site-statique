@@ -311,13 +311,12 @@
         <div class="contact">
             <div class="c-h">
                 <h2>Nous contacter</h2>
-                <hr>
+                <hr class="ligne">
             </div>
             <div class="name-bar">
-                <label for="Nom">Nom</label>
-                <input type="text" id="Nom">
-                <label for="Email">Email</label>
-                <input type="text" id="Email">
+                <input type="text" placeholder="Nom">
+                
+                <input type="text" placeholder="Email">
             </div>
             <div class="text-area">
                 <textarea name="text-box">Votre message</textarea>
@@ -327,7 +326,8 @@
             </div>
         </div>
         <footer>
-            <img src="assets\img\logo.png">
+            <div class="bandeau"></div>
+            <img src="assets\img\logo.png" class="logo">
             <div class="legal">
                 <h3>Mentions légales</h3>
                 <p>CGU</p>
@@ -337,16 +337,21 @@
             </div>
             <div class="coord">
                 <h3>Coordonnées</h3>
-                <p>1 place république, 75003 Paris</p>
-                <p>01.02.03.04.05</p>
-                <p>contact@klivio.Fr</p>
+                <ul>
+                    <li><img src="assets/img/marker-02.svg" class="padding">1 place république, 75003 Paris</li>
+                    <li><img src="assets/img/phone.svg" class="list-item">01.02.03.04.05</li>
+                    <li><img src="assets/img/mail-01.svg" class="list-item">contact@klivio.fr</li>
+                </ul>
+                
             </div>
             <div class="f-button">
                 <button>Connexion</button>
                 <button>Inscription</button>
             </div>
-            <hr>
-            <p class="copyright">Klivio - 2025</p>
-            <p class="follow">Suivez - nous</p>
+            <div class="f-text">
+                <hr>
+                <p class="copyright">Klivio - 2025</p>
+                <p class="follow">Suivez - nous</p>
+            </div>
     </body>
 </html>
