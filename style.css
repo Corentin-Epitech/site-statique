@@ -276,7 +276,6 @@ header {
 
    h2 {
     width: 335px;
-    
     font-family: MontSerrat;
     font-weight: 800;
     font-style: ExtraBold;
@@ -461,6 +460,16 @@ header {
     
   }
 
+  .avis-container h2 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(21, 34, 55, 1);
+  }
   .a-box img {
     clip-path: circle();
   }
@@ -498,42 +507,146 @@ header {
   
 }
 
-/*Code avantage */
+/*Code avantage/ Formations / Contact */
 
 @media screen and (max-width: 425px) {
   .avantage {
     background-color: rgba(245, 245, 245, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
+
+  .formation {
+    background-color: rgba(68, 221, 138, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .propos {
+    background-color: rgba(245, 245, 245, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .avantage h2 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(21, 34, 55, 1);
+  }
+
+  .formation h2 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(21, 34, 55, 1);
+  }
+
+  .propos h2 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(21, 34, 55, 1);
+  }
+  
 
   .avantage .title {
     text-transform: uppercase;
   }
-  .text-avantage {
-    display: flex;
+ 
+  ul {
+    padding-left: 0px !important;
+    
   }
 
   li {
-    list-style: none;
+    display: inline-block;
+    margin-bottom: 15px;
   }
+
+    .text-avantage {
+      width: 356px;
+      margin-left: 8%;
+    }
+
   .text-avantage .list {
     font-family: Montserrat;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: -0.031rem;
-    width: 326px;
-
+    margin-right: 25px;
   }
 
+  .list-image {
+    float: left;
+    padding-right: 15px;
+  }
+
+  .formation .list-image {
+    padding-right: 30px;
+  }
+
+  .padding img {
+    padding-bottom: 30px;
+  }
+
+  .padding-2 img {
+    padding-bottom: 200px;
+  }
+
+  .padding-3 img {
+    padding-bottom: 70px;
+  }
 
   .img-avantage {
     width: 327px;
     height: 244px;
     display: flex;
     justify-content: center;
+    padding-bottom: 40px;
+  }
+  .propos .propos-text {
+    width: 345px;
+    margin-bottom: 35px;
+    margin-top: 0px;
+  }
+  .propos p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.031rem;
+    color: rgba(21, 34, 55, 1);
   }
 
+  .propos .img-avantage {
+    background-color: rgba(21, 34, 55, 1);
+    width: 100%;
+    height: 370px;
+    padding-bottom: 0%;
+  }
 
+  .propos img {
+    width: 214px;
+    height: 77px;
+    align-self: center;
+  }
 
 }
 
