@@ -319,7 +319,14 @@ header {
     background-color: #FFFFFF;
   }
 
+  .p-button-text-1 {
+    width: 70px;
+    margin-right: 0px !important;
+  }
 
+  .p-button-text-2 {
+    margin-left: 7px !important;
+  }
   .box .p-button {
     width: 120px;
     height: 31.58px;
