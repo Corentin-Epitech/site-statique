@@ -144,11 +144,11 @@ header {
 }
 
 
-    .h_img {
-    width: 5.25rem;
-    height: 1.938rem;
-    margin-top: 1.563rem;
-    margin-left: 1.688rem;
+  .h_img {
+  width: 5.25rem;
+  height: 1.938rem;
+  margin-top: 1.563rem;
+  margin-left: 98px;
 
 }
 
@@ -156,26 +156,75 @@ header {
     width: 6.875rem;
     height: 1.125rem;
     margin-top: 1.938rem;
-    margin-left: 21.875rem;
-    font-size: 0.938rem;
+    font-family: Montserrat;
     font-weight: 500;
-    letter-spacing: -1.5%;
-    
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    margin-left: 168px;
+
 }
 
 .h_search {
     width: 29.813rem;
     height: 2.5rem;
     margin-top: 1.25rem;
-    margin-left: 37.688rem;
-    border-style: mixed;
-    border-color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 10px;
     color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 143px;
+}
 
+.search_text {
+  float: inline-start;
+  margin-left: 15px;
+  height: 18px;
+}
+.loupe {
+  float: inline-end;
+  margin-top: 8px;
+  margin-right: 10px;
 }
 
 .h_button {
     margin: auto;
+    float: inline-end;
+    margin-left: 220px;
+}
+
+.h_button button {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -0.031rem;
+  text-align: center;
+  vertical-align: middle;
+  color: #152237;
+  border-radius: 6px;
+  width: 130px;
+  height: 40px;
+  border-style: none;
+}
+
+.connexion {
+  background-color: #FFFFFF;
+}
+
+.inscription {
+  background: linear-gradient(95.98deg, #44DD8A 8.7%, #15B7E2 100%);
+  margin-left: 19px;
+
 }
 
 .hamburger-menu {
@@ -183,6 +232,8 @@ header {
     position: absolute;
 }
 }
+
+
 
 /*Code hero*/
 
@@ -194,6 +245,9 @@ header {
 
     .hero-image {
         display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
         max-width: 100%;
         height: 364px;
         background: linear-gradient(94.01deg, rgba(68, 221, 138, 0.8) 3.11%, rgba(21, 183, 226, 0.8) 98.45%), url("/assets/img/hero-mobile.png");
@@ -213,11 +267,12 @@ header {
       font-weight: 800;
       font-style: ExtraBold;
       font-size: 32px;
-      letter-spacing: -0.031rem;
       line-height: 100%;
+      letter-spacing: -0.031rem;
       text-align: center;
       vertical-align: middle;
       text-transform: uppercase;
+
     }
 
     .hero_text h3 {
@@ -255,6 +310,66 @@ header {
 @media screen and (min-width: 426px) {
     .hero_img_mob {
         display: none;
+    }
+
+    .hero-image {
+        display: flex;
+        max-width: 100%;
+        height: 451px;
+        background: linear-gradient(94.01deg, rgba(68, 221, 138, 0.8) 3.11%, rgba(21, 183, 226, 0.8) 98.45%), url("/assets/img/hero-desktop.png");
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    .hero_text {
+      position: absolute;
+    }
+
+    .hero_text h1 {
+      margin-top: 45px;
+      margin-left: 16px;
+      margin-right: 16px;
+      font-family: Montserrat;
+      font-weight: 800;
+      font-style: ExtraBold;
+      font-size: 48px;
+      line-height: 100%;
+      letter-spacing: -0.031rem;
+      text-align: center;
+      vertical-align: middle;
+      text-transform: uppercase;
+
+    }
+
+    .hero_text h3 {
+      margin-top:27px;
+      margin-left: 16px;
+      margin-right: 16px;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-style: Medium;
+      font-size: 20px;
+      letter-spacing: -0.031rem;
+      line-height: 100%;
+      text-align: center;
+      vertical-align: middle;
+      text-transform: uppercase;
+    }
+
+    .hero_text button {
+      width: 130px;
+      height: 40px;
+      margin-top: 24px ;
+      margin-left: 131px;
+      border-radius: 6px;
+      border-style: hidden;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 15px;
+      letter-spacing: -0.031rem;
+      line-height: 100%;
+      text-align: center;
+      vertical-align: middle;
     }
 }
 
@@ -446,6 +561,189 @@ header {
 
 @media screen and (min-width: 426px) {
 
+  .recent {
+    background-color: #152237;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    letter-spacing: -0.031rem ;
+  }
+  .recent h2 {
+    color: #FFFFFF;
+  }
+
+   h2 {
+    width: 335px;
+    font-family: MontSerrat;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.031rem ;
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    
+  }
+
+  .holder {
+    position: relative;
+    
+    display: inline-block;
+  }
+
+  .holder .p-button {
+    position: absolute;
+    bottom: -11px;
+    right: 10px;
+    
+  }
+  .recent .p-text {
+    color: #FFFFFF;
+  }
+  .p-text {
+    margin: auto;
+    margin-left: 14%;
+    margin-right: 11%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .recent .box .p-button {
+    background-color: #FFFFFF;
+  }
+
+  .p-button-text-1 {
+    width: 70px;
+    margin-right: 0px !important;
+  }
+
+  .p-button-text-2 {
+    margin-left: 7px !important;
+  }
+  .box .p-button {
+    width: 120px;
+    height: 31.58px;
+    border-radius: 93px;
+    border-style: hidden;
+    background-color: rgba(21, 34, 55, 1);
+    display: flex;
+  }
+
+  .recent .box h2 {
+    color: rgba(21, 34, 55, 1);
+  }
+
+  .box h2 {
+    font-family: MontSerrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.031rem;
+    margin: auto;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .recent .box h3 {
+    color: rgba(21, 34, 55, 1);
+    text-decoration: inline-through #152237;
+  }
+  .box h3 {
+    font-family: MontSerrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10px;
+    line-height: 7px;
+    letter-spacing: -0.031rem;
+    text-decoration: line-through;
+    margin: auto;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .box h4 {
+    font-family: MontSerrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.031rem;
+    margin: auto;
+    margin-top: 5px;
+  }
+
+  .box h5 {
+    font-family: MontSerrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    margin: auto;
+    align-self: center;
+    margin-top: 5px;
+  }
+
+  .box .rating {
+    margin-top: 5px;
+  }
+
+  .box .fa {
+    color: rgba(255, 199, 0, 0.3);
+  }
+
+  .box .checked {
+    color: rgba(255, 199, 0, 1) ;
+    margin: auto;
+  }
+  
+  .p-box {
+    display: flex;
+  }
+
+  .box p {
+    font-family: MontSerrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin: auto;
+    margin-top: 5px;
+  }
+  
+  .bottom-button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+    padding-top: 15px;
+  }
+
+  .recent .p-box .p-bottom-button {
+    background-color: #FFFFFF;
+    color: #152237;
+    
+  }
+
+  .p-box .p-bottom-button {
+    width: 225px;
+    height: 40px;
+    border-radius: 6px;
+    border-style: hidden;
+    background-color: rgba(21, 34, 55, 1);
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -0.031rem;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    
+  }
+
+  
+
 }
 
 
@@ -510,6 +808,59 @@ header {
 
   .avis {
       display: flex;
+  }
+
+  .a-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .avis-container .title {
+    text-transform: uppercase;
+  }
+
+  .a-box .rating .checked {
+    color: rgba(255, 199, 0, 1);
+    
+  }
+
+  .avis-container h2 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(21, 34, 55, 1);
+  }
+  .a-box img {
+    clip-path: circle();
+  }
+
+  .a-box h4 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* letter-spacing: -1.5%; */
+    text-align: center;
+    color: rgba(21, 34, 55, 1);
+    margin: auto;
+    margin-bottom: 5px;
+    letter-spacing: -0.031rem ;
+  }
+
+  .a-box p {
+    font-family: MontSerrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    width: 340px;
+    height: 173px;
+    letter-spacing: -0.031rem ;
+    margin: auto;
   }
   
 }
@@ -666,6 +1017,151 @@ header {
 }
 
 @media screen and (min-width: 426px) {
+  .avantage {
+    background-color: rgba(245, 245, 245, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .formation {
+    background-color: rgba(68, 221, 138, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .propos {
+    background-color: rgba(245, 245, 245, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .avantage h2 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(21, 34, 55, 1);
+  }
+
+  .formation h2 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(21, 34, 55, 1);
+  }
+
+  .propos h2 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(21, 34, 55, 1);
+  }
+  
+
+  .avantage .title {
+    text-transform: uppercase;
+  }
+ 
+ .avantage ul {
+    padding-left: 0px !important; 
+  }
+
+  .formation ul {
+    padding-left: 0px !important; 
+  }
+
+  .avantage li {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+  .formation li {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+    .text-avantage {
+      width: 356px;
+      margin-left: 8%;
+    }
+
+  .text-avantage .list {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.031rem;
+    margin-right: 25px;
+  }
+
+  .list-image {
+    float: left;
+    padding-right: 15px;
+  }
+
+  .formation .list-image {
+    padding-right: 30px;
+  }
+
+  .padding img {
+    padding-bottom: 30px;
+  }
+
+  .padding-2 img {
+    padding-bottom: 200px;
+  }
+
+  .padding-3 img {
+    padding-bottom: 70px;
+  }
+
+  .img-avantage {
+    width: 327px;
+    height: 244px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  .propos .propos-text {
+    width: 345px;
+    margin-bottom: 35px;
+    margin-top: 0px;
+  }
+  .propos p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.031rem;
+    color: rgba(21, 34, 55, 1);
+  }
+
+  .propos .img-avantage {
+    background-color: rgba(21, 34, 55, 1);
+    width: 100%;
+    height: 370px;
+    padding-bottom: 0%;
+  }
+
+  .propos img {
+    width: 214px;
+    height: 77px;
+    align-self: center;
+  }
 
 }
 
@@ -744,7 +1240,73 @@ header {
 }
 
 @media screen and (min-width: 426px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .contact h2 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(21, 34, 55, 1);
+  }
+
+  .name-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contact hr {
+    display: none;
+  }
+
+  .contact input {
+    width: 356px;
+    height: 45px;
+    background-color: #152237;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.031rem;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 25px;
+    border-style: none;
+  }
+
+  .contact textarea {
+    width: 356px;
+    height: 185px;
+    background-color: #152237;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.031rem;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .contact button {
+    background-color: rgba(68, 221, 138, 1);
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    vertical-align: middle;
+    width: 356px;
+    height: 45px;
+    border-style: none;
+    border-radius: 6px;
+    margin: 20px 0px 35px 0px;
+  }
 }
 
 /* Code Footer */
@@ -845,5 +1407,95 @@ header {
 }
 
 @media screen and (min-width: 426px) {
+  footer {
+    background-color: #152237;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 555px;
+    margin-top: 18px;
+  }
 
+  footer .logo {
+    width: 243px;
+    height: 87px;
+    padding: 63px 0px 40px 0px;
+  }
+  .f-button {
+    display: none;
+  }
+
+  .f-text {
+    display: none;
+  }
+
+
+
+  .legal h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+
+  .legal p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+  }
+
+  .coord {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.031rem;
+    color: #FFFFFF;
+    width: 189px;
+  }
+  
+  .coord h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  footer ul {
+    list-style-type: none;
+    padding-left: 0px !important;
+  }
+
+  footer li {
+    margin: 4px 0px 4px 0px;
+  }
+
+  footer .coord img {
+    padding-right: 15px;
+    float: left;
+  }
+
+  footer .padding {
+    padding-bottom: 25px;
+  }
+
+  .bandeau {
+    width: 100%;
+    height: 18px;
+    background: linear-gradient(90.01deg, #44DD8A 2.38%, #18A0FB 100%);
+
+  }
 }
