@@ -809,11 +809,14 @@ header {
 }
 
 @media screen and (min-width: 426px) {
+  .avis-container{
+    height: 597px;
+  }
 
   .avis {
       display: flex;
       justify-content: center;
-      height: 597px;
+      margin-top: 56px;
   }
 
   .a-box {
@@ -823,17 +826,21 @@ header {
 
   .avis-container .title {
     text-transform: uppercase;
+    padding-top: 58px;
   }
+  #juliette {
+    margin-left: 150px;
+  }
+  
 
   .a-box .rating .checked {
     color: rgba(255, 199, 0, 1);
-    
   }
 
   .avis-container h2 {
     font-family: Montserrat;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 36px;
     letter-spacing: -0.031rem;
     text-align: center;
@@ -865,6 +872,7 @@ header {
     height: 173px;
     letter-spacing: -0.031rem ;
     margin: auto;
+    width: 680px;
   }
   
 }
@@ -1024,8 +1032,9 @@ header {
   .avantage {
     background-color: rgba(245, 245, 245, 1);
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    height: 641px;
+    
   }
 
   .formation {
@@ -1033,6 +1042,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  
   }
 
   .propos {
@@ -1045,18 +1055,19 @@ header {
   .avantage h2 {
     font-family: Montserrat;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 36px;
     letter-spacing: -0.031rem;
-    text-align: center;
+
     text-transform: uppercase;
     color: rgba(21, 34, 55, 1);
+    margin-left: 0px;
   }
 
   .formation h2 {
     font-family: Montserrat;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 36px;
     letter-spacing: -0.031rem;
     text-align: center;
@@ -1067,7 +1078,7 @@ header {
   .propos h2 {
     font-family: Montserrat;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 36px;
     letter-spacing: -0.031rem;
     text-align: center;
@@ -1078,19 +1089,25 @@ header {
 
   .avantage .title {
     text-transform: uppercase;
+    padding-top: 0px;
+    text-align: left;
   }
  
  .avantage ul {
-    padding-left: 0px !important; 
+    padding-left: 0px !important;
+    display: flex;
+    flex-direction: column;
   }
 
   .formation ul {
     padding-left: 0px !important; 
+    
   }
 
   .avantage li {
     display: inline-block;
     margin-bottom: 15px;
+    width: 616px;
   }
 
   .formation li {
@@ -1098,11 +1115,13 @@ header {
     margin-bottom: 15px;
   }
 
-    .text-avantage {
-      width: 356px;
-      margin-left: 8%;
-    }
+  .text-avantage {
+    padding-top: 98px;
+  }
 
+  .img-avantage {
+    padding-top: 98px;
+  }
   .text-avantage .list {
     font-family: Montserrat;
     font-weight: 400;
@@ -1121,9 +1140,6 @@ header {
     padding-right: 30px;
   }
 
-  .padding img {
-    padding-bottom: 30px;
-  }
 
   .padding-2 img {
     padding-bottom: 200px;
@@ -1133,13 +1149,6 @@ header {
     padding-bottom: 70px;
   }
 
-  .img-avantage {
-    width: 327px;
-    height: 244px;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 40px;
-  }
   .propos .propos-text {
     width: 345px;
     margin-bottom: 35px;
