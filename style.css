@@ -1376,6 +1376,10 @@ header {
     margin-top: 18px;
   }
 
+  footer hr {
+    display: none;
+  }
+
   footer .logo {
     width: 243px;
     height: 87px;
@@ -1422,6 +1426,7 @@ header {
     letter-spacing: -0.031rem;
     color: #FFFFFF;
     width: 189px;
+    margin-left: 30px;
   }
   
   .coord h3 {
@@ -1463,35 +1468,43 @@ header {
 @media screen and (min-width: 426px) {
   footer {
     background-color: #152237;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 555px;
+    height: 489px;
     margin-top: 18px;
   }
 
   footer .logo {
     width: 243px;
     height: 87px;
-    padding: 63px 0px 40px 0px;
+    margin:  91px 0px 0px 96px;
   }
+  .legal {
+    margin-left: 288px;
+    margin-top: 102px;
+    width: 173px;
+    height: 135px;
+  }
+
   .f-button {
-    display: none;
+    margin-left: 391px;
+    margin-top: 102px;
+    display: flex;
+    flex-direction: column;
+
   }
 
-  .f-text {
-    display: none;
-  }
-
-
-
+    .f-button button {
+    width: 130px;
+    height: 40px;
+    opacity: 1;
+    border-radius: 6px;
+    border-style: none;
+    }
   .legal h3 {
     font-family: Montserrat;
     font-weight: 700;
     font-size: 15px;
     line-height: 24px;
     letter-spacing: -0.031rem;
-    text-align: center;
     color: #FFFFFF;
     margin: auto;
     padding-bottom: 15px;
@@ -1503,7 +1516,6 @@ header {
     font-size: 15px;
     line-height: 24px;
     letter-spacing: -0.031rem;
-    text-align: center;
     color: #FFFFFF;
     margin: auto;
   }
@@ -1516,6 +1528,10 @@ header {
     letter-spacing: -0.031rem;
     color: #FFFFFF;
     width: 189px;
+    margin-top: 102px;
+    margin-left: 65px;
+    width: 192px;
+    height: 144px;
   }
   
   .coord h3 {
@@ -1524,8 +1540,8 @@ header {
     font-size: 15px;
     line-height: 24px;
     letter-spacing: -0.031rem;
-    text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
+    
   }
 
   footer ul {
@@ -1551,5 +1567,62 @@ header {
     height: 18px;
     background: linear-gradient(90.01deg, #44DD8A 2.38%, #18A0FB 100%);
 
+  }
+
+  .top {
+    display: flex;
+  }
+
+  .f-text {
+    display: flex;
+  }
+
+  .f-text p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.031rem;
+    color: #FFFFFF;
+  }
+
+  #button-top {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+  #button-bottom {
+    background: linear-gradient(95.98deg, #44DD8A 8.7%, #15B7E2 100%);
+    margin-top: 12px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -0.031rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  footer hr {
+    width: 1482px;
+    background: rgba(68, 221, 138, 1);
+    height: 2px;
+    margin-top: 28px;
+  }
+
+  .copyright {
+    margin-left: 96px;
+    width: 301px;
+  }
+
+  .follow {
+    margin-left: 890px;
+    display: flex;
+    width: 297px;
+    gap: 20px;
   }
 }
