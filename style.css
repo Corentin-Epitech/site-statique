@@ -319,7 +319,7 @@ header {
         align-items: center;
         max-width: 100%;
         height: 451px;
-        background: linear-gradient(94.01deg, rgba(68, 221, 138, 0.8) 3.11%, rgba(21, 183, 226, 0.8) 98.45%), url("/assets/img/hero-desktop.png");
+        background: linear-gradient(94.01deg, rgba(68, 221, 138, 0.8) 3.11%, rgba(21, 183, 226, 0.8) 98.45%), url("assets/img/hero-desktop.png");
         background-size: cover;
         background-position: bottom;
     }
