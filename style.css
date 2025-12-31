@@ -9,6 +9,7 @@ body {
     max-width: 100%;
     max-height: auto;
 }
+
 /* Code Header */
 @media screen and (max-width: 425px ) { 
 header {
@@ -95,7 +96,7 @@ header {
   top: 8px;
 }
 
-.menu__box {
+/* .menu__box {
   display: block;
   position: fixed;
   visibility: hidden;
@@ -132,7 +133,7 @@ header {
 }
 .menu__item:hover {
   background-color: #ffffff;
-}
+} */
 }
 
 @media screen and (min-width: 426px ) {
